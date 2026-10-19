@@ -137,7 +137,6 @@ The experiments are intended to illustrate how flux selection and time integrati
 - CFL values above unity are used deliberately to explore stability limits; successful behavior for an individual run is not a general stability guarantee.
 - The implementations do not include a dedicated Roe entropy fix or a general positivity-preserving treatment.
 - This project compares against a reference solution at one spatial resolution; it does **not** include a formal grid-convergence study.
-- The scripts have been prepared from the original coursework implementation; results should be reproduced in MATLAB before reporting specific error values.
 
 ## Project context
 
